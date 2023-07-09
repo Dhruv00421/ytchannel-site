@@ -108,7 +108,7 @@ button.subscribe{
 } 
 .subscribe:hover{
     transition: 0.5s;
-    background-color: red;
+    background-color: darkred;
     color: black;
 }
 /* contact */
