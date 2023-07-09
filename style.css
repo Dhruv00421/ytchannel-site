@@ -189,11 +189,10 @@ button.subscribe{
         right: 150px;
     }
     .feature{
-        display: block;
-        /* flex-direction: column; */
+        flex-direction: column;
     }
     header{
-        height: 200px;
+        height: 300px;
     }
     h1{
         text-align: center;
