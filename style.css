@@ -41,7 +41,7 @@ ul.menus{
     margin: 10px;
     padding: 1px;
     padding-left: 10px;
-    transition: 0.6s;
+    transition: 1s;
 }
 .nav:first-child{
     padding-left: 0;
