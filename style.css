@@ -161,6 +161,11 @@ button.subscribe{
 }
 /* responsive */
 @media screen and (max-width: 500px) {
+    .logo{
+        width: 100px;
+        position: relative;
+        right: 150px;
+    }
     .feature{
         flex-direction: column;
     }
