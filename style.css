@@ -33,7 +33,7 @@ ul.menus{
 }
 .nav:hover{
     background-color: yellow;
-    transition: 1s;
+    transition: 0.6s;
 }
 .nav{
     display: inline-block;
