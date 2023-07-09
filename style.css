@@ -33,6 +33,7 @@ ul.menus{
 }
 .nav:hover{
     background-color: yellow;
+    transition: 1s;
 }
 .nav{
     display: inline-block;
@@ -40,6 +41,8 @@ ul.menus{
     margin: 10px;
     padding: 1px;
     padding-left: 10px;
+    transform: scale(1.2);
+    z-index: 2;
 }
 .nav:first-child{
     padding-left: 0;
@@ -48,7 +51,6 @@ ul.menus{
     background-color: black;
     padding-left: 300px;
     margin-left: 200px;
-
 }
 a:hover {
     text-decoration: underline;
