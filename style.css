@@ -73,6 +73,7 @@ figure img{
 }
 .feature{
     display: flex;
+    flex-wrap: wrap;
     margin: 10px;
     text-transform: uppercase;
 }
