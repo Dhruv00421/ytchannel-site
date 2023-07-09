@@ -180,6 +180,9 @@ button.subscribe{
         position: relative;
         right: 150px;
     }
+    .feature{
+        flex-direction: column;
+    }
 }
 @media screen and (max-width: 500px) {
     .feature{
