@@ -189,6 +189,7 @@ button.subscribe{
         right: 150px;
     }
     .feature{
+        display: flex;
         flex-direction: column;
     }
     header{
