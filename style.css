@@ -32,7 +32,7 @@ ul.menus{
     left: -200px;
 }
 .nav:hover{
-    background-color: yellow;
+    background-color: azure;
     transform: scale(1.2);
 }
 .nav{
