@@ -191,4 +191,8 @@ button.subscribe{
         right: 300px;
     }
 }
-
+@media screen and (max-width: 480px) {
+    .feature{
+        flex-direction: column;
+    }
+}
