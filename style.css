@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 
 /* header */
@@ -32,16 +33,16 @@ ul.menus{
     left: -200px;
 }
 .nav:hover{
-    background-color: azure;
+    background-color: #00dfc4;
     transform: scale(1.2);
 }
 .nav{
+    transition: 0.3s;
     display: inline-block;
     border-radius: 4px;
     margin: 10px;
     padding: 1px;
     padding-left: 10px;
-    transition: 1s;
 }
 .nav:first-child{
     padding-left: 0;
@@ -50,6 +51,7 @@ ul.menus{
     background-color: black;
     padding-left: 300px;
     margin-left: 200px;
+
 }
 a:hover {
     text-decoration: underline;
@@ -107,12 +109,14 @@ button{
 /* contact */
 .con{
     display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     flex-direction: column;
     gap: 30px;
     background: #1d2b3a;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
 }
 .detail{
     display: flex;
@@ -132,33 +136,24 @@ button{
     margin: 20px;
 }
 .inputbox{
-    position: relative;
-    width: 250px;
-}
-.inputbox input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    background: #1d2b3a;
-    border-radius: 10px;
-    outline: none;
-    color: #fff;
-    font-size: 1em;
-}
-span{
     position: absolute;
-    left: 0px;
-    padding: 10px;
-    pointer-events: none;
-    font-size: 1em;
-    color: rgba(255, 255, 255, 0.25);
-    text-transform: uppercase;
+    border-radius: 10px;
+    width: 500px;
 }
-input:valid ~ span
-input:focus ~ span{
-    color: #00dfc4;
-    transform: translateX(10px) translateY(-7px);
-    font-size: 0.10em;
+.big{
+    height: 300px;
+    width: 500px;
+}
+.submit{
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: medium;
+    width: 130px;
+    height: 30px;
+    position: relative;
+    align-self: center;
+    margin-top: 130px;
+    margin-right: 800px;
 }
 /* responsive */
 @media screen and (max-width: 250px) {
