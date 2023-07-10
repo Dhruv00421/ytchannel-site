@@ -213,7 +213,8 @@ button.subscribe{
     }
     h1{
         align-self: center;
-        margin: 100px 10px;
+        margin-top: 200px;
+        margin-right: 100px;
     }
     button.subscribe{
         margin-left: 300px;
