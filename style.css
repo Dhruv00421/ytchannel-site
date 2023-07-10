@@ -201,8 +201,8 @@ button.subscribe{
         font-size: xx-large;
         margin-top: 100px;
         margin-right: 100px;
-        width: fit-content;
-        height: fit-content;
+        width: max-content;
+        height: max-content;
     }
     figure img{
         width: 600px;
