@@ -211,8 +211,8 @@ button.subscribe{
     h2{
         font-size: medium;
     }
-    .subscribe{
-        align-self: center;
+    button.subscribe{
+        margin: 200px;
         height: 100px;
         width: 100px;
     }
