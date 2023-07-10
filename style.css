@@ -214,6 +214,7 @@ button.subscribe{
     h1{
         font-size: large;
         align-self: center;
+        margin-top: 10000px;
     }
     button.subscribe{
         margin-left: 300px;
