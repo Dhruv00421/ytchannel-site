@@ -208,4 +208,12 @@ button.subscribe{
         width: 600px;
         height: 400px;
     }
+    h2{
+        font-size: medium;
+    }
+    .subscribe{
+        align-self: center;
+        height: 100px;
+        width: 100px;
+    }
 }
