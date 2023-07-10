@@ -184,10 +184,9 @@ button.subscribe{
 }
 @media screen and (max-width: 1080px ) {
     .logo{
-        size: 10px;
-        width: 100px;
+        background-size: 100px;
         right: 150px;
-        margin-top: 100px;
+        margin-top: 200px;
     }
     .feature{
         display: flex;
@@ -197,12 +196,8 @@ button.subscribe{
         height: 600px;
     }
     h1{
-        text-align: center;
-        font-size: xx-large;
-        margin-top: 100px;
-        margin-right: 100px;
-        width: 200px;
-        height: 400px;
+        margin-top: 0px;
+        font-size: 100px;
     }
     figure img{
         width: 600px;
