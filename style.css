@@ -246,10 +246,10 @@ button.subscribe{
         border-radius: none;
     }
     h2{
-        font-size: larger;
+        font-size: xx-large;
     }
     p{
-        font-size: medium;
+        font-size: 30px;
     }
 }
 
