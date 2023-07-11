@@ -232,11 +232,11 @@ button.subscribe{
     }
     figure img{
         width: 900px;
-        height: 700px;
+        height: 600px;
         margin-top: 30px;
     }
     figcaption{
-        font-size: 300%;
+        font-size: medium;
         
     }
     .box:hover{
