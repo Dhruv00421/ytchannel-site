@@ -226,9 +226,11 @@ button.subscribe{
         font-size: medium;
     }
     button.subscribe{
-        margin-left: 300px;
+        border-radius: 60px;
+        margin-left: 400px;
         height: 100px;
-        width: 200px;
+        width: 300px;
+        font-size: 30px;
     }
     figure img{
         width: 900px;
