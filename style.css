@@ -188,12 +188,13 @@ button.subscribe{
         background-size: 300px;
         background-repeat: no-repeat;
         display: inline-block;
-        height: 300px;
+        height: 400px;
         text-indent: -99999px;
         width: 20px;
         position: relative;
-        left: -10px;
-        margin-top: 100px;
+        left: -150px;
+        margin-top: 0px;
+        background-position-y: center;
     }
     .nav{
         font-size: 50px;
