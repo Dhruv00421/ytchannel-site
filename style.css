@@ -206,7 +206,7 @@ button.subscribe{
         text-indent: -99999px;
         width: 300px;
         right: 100px;
-        margin-left: 400px;
+        margin-left: 500px;
         border-width: 10px;
     }
     .nav{
@@ -223,10 +223,6 @@ button.subscribe{
         margin-top: 30px;
         font-size: 100px;
     }
-    figure img{
-        width: 600px;
-        height: 400px;
-    }
     h2{
         font-size: medium;
     }
@@ -234,6 +230,15 @@ button.subscribe{
         margin-left: 300px;
         height: 100px;
         width: 200px;
+    }
+    figure img{
+        width: 900px;
+        height: 700px;
+        margin-top: 30px;
+    }
+    figcaption{
+        font-size: 300%;
+        
     }
     .box:hover{
         transform:none;
