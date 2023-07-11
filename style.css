@@ -245,5 +245,11 @@ button.subscribe{
         box-shadow: none;
         border-radius: none;
     }
+    h2{
+        font-size: larger;
+    }
+    p{
+        font-size: medium;
+    }
 }
 
