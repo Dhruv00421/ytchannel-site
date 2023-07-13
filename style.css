@@ -1,17 +1,39 @@
 body{
-   
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background-repeat: no-repeat;
     margin-bottom: 100px;
 }
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+}
+.background-clip{
+    position: absolute;
+    z-index: -1;
+}
+@media (min-aspect-ratio:16/9){
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .background-clip{
+        width: auto;
+        height: 100%;
+    }
+}
 
 /* header */
 header{
-    background-color: black;
     margin: 0;
     padding: 0;
+    opacity: 90%;
 }
 ul.menus{
     margin:0;
@@ -38,8 +60,14 @@ ul.menus{
     border-width: 10px;
 }
 .nav:hover{
-    background-color: orange;
     transform: scale(1.2);
+}
+a{
+    color: aqua;
+}
+a:hover{
+    transition: 0.3s;
+    color: orange;
 }
 .nav{
     transition: 0.3s;
@@ -51,6 +79,7 @@ ul.menus{
     text-decoration: none;
     color: white;
     background-color: black;
+    background: none;
 }
 /* .nav:first-child{
     padding-left: 0;
@@ -82,7 +111,7 @@ figure img{
     text-transform: uppercase;
 }
 figcaption{
-    color: black;
+    color: aqua;
 }
 h1{
     text-align: center;
@@ -97,10 +126,10 @@ h1{
 }
 /* about */
 h2{
-    color: black;
+    color: orange;
 }
 .bottom.part{
-    background-color: darkslategray;
+    color: aqua;
 }
 button.subscribe{
     color: white;
@@ -205,7 +234,8 @@ button.subscribe{
         height: 350px;
         text-indent: -99999px;
         width: 300px;
-        margin-left: 400px;
+        right: 100px;
+        margin-left: 500px;
         border-width: 10px;
     }
     .nav{
@@ -226,19 +256,17 @@ button.subscribe{
         font-size: medium;
     }
     button.subscribe{
-        border-radius: 60px;
-        margin-left: 350px;
+        margin-left: 300px;
         height: 100px;
-        width: 300px;
-        font-size: 30px;
+        width: 200px;
     }
     figure img{
         width: 900px;
-        height: 600px;
+        height: 700px;
         margin-top: 30px;
     }
     figcaption{
-        font-size: 30px;
+        font-size: 300%;
         
     }
     .box:hover{
@@ -246,12 +274,6 @@ button.subscribe{
         z-index: none;
         box-shadow: none;
         border-radius: none;
-    }
-    h2{
-        font-size: 60px;
-    }
-    p{
-        font-size: medium;
     }
 }
 
