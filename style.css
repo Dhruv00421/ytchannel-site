@@ -85,10 +85,12 @@ ul.menus{
 }
 a{
     color: aqua;
+    text-decoration: none;
 }
 a:hover{
-    transition: 0.3s;
+    transition: 0.4s;
     color: orange;
+    text-decoration: underline;
 }
 .nav{
     transition: 0.3s;
