@@ -1,9 +1,10 @@
 ::selection {
+    /* color: rgb(250, 0, 0); */
     background-color: aqua;
 }
-::-moz-selection {
-    background-color: aqua;
-}
+/* ::-moz-selection {
+    background-color: blue;
+} */
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
